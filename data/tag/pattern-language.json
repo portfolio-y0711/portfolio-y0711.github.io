@@ -1,0 +1,7 @@
+[
+ "pattern-language/kubernetes/index",
+ "pattern-language/messaging/index",
+ "pattern-language/oop/index",
+ "pattern-language/refactoring/index",
+ "pattern-language/xUnit/index"
+]

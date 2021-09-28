@@ -1,0 +1,11 @@
+[
+ "algorithm/index",
+ "pattern-language/index",
+ "pattern-language/kubernetes/index",
+ "pattern-language/messaging/index",
+ "pattern-language/oop/index",
+ "pattern-language/refactoring/index",
+ "pattern-language/xUnit/index",
+ "project/index",
+ "tech-knowlogy/index"
+]
