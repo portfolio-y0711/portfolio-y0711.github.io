@@ -54,8 +54,7 @@ $ bundle add webrick
 
 ```
 
-
-필수는 아니지만 vim 사용자라면, vimwiki(https://github.com/vimwiki/vimwiki) 플러그인을 설치하여 위키 작성 워크플로우를 향상할 수 있습니다.
+필수는 아니지만 vim 사용자라면, vimwiki(https://github.com/vimwiki/vimwiki) 플러그인을 설치하여 위키 작성 워크플로우를 개선할 수 있습니다.
 
 자세한 내용은 링크 동영상 및 관련 블로그글를 참고하시기 바랍니다. 
 
@@ -101,4 +100,7 @@ $ bundle add webrick
 ## Links
 
 * [johngrib-jekyll-skeleton](https://github.com/johngrib/johngrib-jekyll-skeleton):  프로젝트 위키 제작자(John Grib 기계인간)님의 프로젝트 저장소
+
+* [vimwiki workflow](https://www.youtube.com/watch?v=A1YgbAp5YRc): Productivity Setup with Vimwiki, Taskwarrior and MDwiki: Part 1
+
 

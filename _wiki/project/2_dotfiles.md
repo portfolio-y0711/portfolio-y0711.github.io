@@ -15,11 +15,11 @@ latex   : true
 
 ## 개요
 
-회사 업무용 pc와 개인 pc의 설정파일을 동기화하여 언제나 익숙한 환경에서 추가 비용없이 컨텍스트를 이어나가자
+회사 업무용 pc와 개인 pc의 설정파일을 동기화하여 컨텍스트 스위칭 비용 없이 익숙한 환경에서 작업하기
 
 ## 구성 방법
 
-[homebrew formulae](https://formulae.brew.sh/formula/stow)의 페이지에서 제공하는 설명대로 아래와 같은 간단한 스크립트로 설치가 가능하다.
+[homebrew formulae](https://formulae.brew.sh/formula/stow)의 소개와 같이 아래와 같은 간단한 스크립트로 설치가 가능하다.
 
 ```bash
 $ brew install stow
@@ -28,11 +28,12 @@ $ cd ~/
 
 $ mkdir .dotfiles
 
-$ stow
+$ cp ~/.any-config-files .
 
+$ stow
 ```
 
 ## Links
 
-* [johngrib-jekyll-skeleton](https://github.com/johngrib/johngrib-jekyll-skeleton):  프로젝트 위키 제작자(John Grib 기계인간)님의 프로젝트 저장소
+* [stow workflow](https://www.youtube.com/watch?v=CFzEuBGPPPg&t=2010s): Sync your .dotfiles with git and GNU #Stow like a pro!
 
