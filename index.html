@@ -21,6 +21,7 @@ regenerate: true
         <br/>
         <br/>
     </div>
+
     <div class="contact">
 {% if site.github_username %}
         <a href="https://github.com/{{ site.github_username }}">GitHub</a>
@@ -34,8 +35,25 @@ regenerate: true
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
     </div>
 </div>
+
 <div>
-    <H3 class="indent">최근 변경된 위키 문서 <br/>(..recently modified)</H3>
+    <h3><a href="{{ doc.url | prepend: "/wiki/index" }}" style="text-decoration: none" class="indent">인덱스 바로가기 (link to index)</a></h3>
+    <ul class="post-list">
+        {% assign documents = site.wiki | sort: 'updated' | reverse %}
+        {% for doc in documents %}
+            {% if doc.layout == 'category' %}
+            <li>
+                <a class="post-link" href="{{ doc.url | prepend: site.baseurl }}">
+                    {{ doc.title }} ({{ doc.summary }})
+                </a>
+            </li>
+            <br/>
+            {% endif %}
+        {% endfor %}
+    </ul>
+</div>
+<div>
+    <H3 class="indent">최근 변경된 위키 문서 (..recently modified)</H3>
     <ul class="post-list">
 {% assign documents = site.wiki | sort: 'updated' | reverse %}
 {% for doc in documents limit: 30 %}

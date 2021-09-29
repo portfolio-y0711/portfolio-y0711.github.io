@@ -1,7 +1,7 @@
 ---
 layout  : category
 title   : Kubernetes Pattern
-summary :
+summary : 쿠버네티스 패턴
 date    : 2018-01-20 17:43:19 +0900
 updated : 2019-08-13 13:50:57 +0900
 tag     : category pattern-language

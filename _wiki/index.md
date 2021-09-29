@@ -1,6 +1,6 @@
 ---
 layout  : wikiindex
-title   : Root
+title   : Index
 toc     : true
 public  : true
 comment : false

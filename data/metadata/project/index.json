@@ -1,6 +1,7 @@
 {
  "type": "wiki",
  "title": "Project",
+ "summary": "프로젝트 개발이슈",
  "parent": "index",
  "url": "/wiki/project/index",
  "updated": "2019-08-13 13:50:57 +0900",

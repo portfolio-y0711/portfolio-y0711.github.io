@@ -1,6 +1,7 @@
 {
  "type": "wiki",
  "title": "Tech-knowlogy",
+ "summary": "기술 검토",
  "parent": "index",
  "url": "/wiki/tech-knowlogy/index",
  "updated": "2019-08-13 13:50:57 +0900",
