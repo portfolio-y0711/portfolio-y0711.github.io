@@ -1,8 +1,8 @@
 {
  "type": "wiki",
  "title": "Algorithm",
- "summary": "중급 알고리즘",
- "parent": "index",
+ "summary": "알고리즘",
+ "parent": "etc/index",
  "url": "/wiki/algorithm/index",
  "updated": "2020-01-16 20:22:50 +0900",
  "children": [

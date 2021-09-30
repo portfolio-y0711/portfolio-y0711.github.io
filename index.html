@@ -10,14 +10,21 @@ regenerate: true
             ...connecting fragmented memories ...(23%)...
         </H3>
     </div>
-    클릭과 페이지 넘김을 통한 <b style="color: red">순차 탐색</b>이 아니라,<br/> 색인과 키워드 검색을 통한 <b style="color: orange">비순차 탐색</b>으로 <br/><b style="color: blue">조각난 기억</b>을 이어 나가자<br/><br/><br/> (Special Thanks To <br/><a href="https://johngrib.github.io/">John Grip a.k.a. 기계인간</a><br/>for providing awesome wiki template) <br/><br/>
+    클릭과 페이지 넘김을 통한 <b style="color: red">순차 탐색</b>이 아니라,<br/> 색인과 키워드 검색을 통한 <b style="color: orange">비순차 탐색</b>으로 <br/><b style="color: blue">조각난 기억</b>을 이어 나가자<br/><br/><br/> 
 
-    <div>
-    </div>
     <div>
         <a href="/blog/">생각의 창</a>
         /
+        <a href="/wiki/project/index">Project (개발이슈)</a>
+        /
+        <a href="/wiki/pattern-language/index">Pattern-languange</a>
+        /
+        <a href="/wiki/tech-knowlogy/index">기술 검토</a>
+        /
+        <a href="/wiki/algorithm/index">알고리즘</a>
+        /
         <a href="/tag/">태그</a>
+        <br/>
         <br/>
         <br/>
     </div>
@@ -35,9 +42,10 @@ regenerate: true
         <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a>
     </div>
 </div>
+<br/>
 
 <div>
-    <h3><a href="{{ doc.url | prepend: "/wiki/index" }}" style="text-decoration: none" class="indent">인덱스 바로가기 (link to index)</a></h3>
+    <h3><a href="{{ doc.url | prepend: "/wiki/index" }}" style="text-decoration: none" class="indent">문서 카테고리 (..categories)</a></h3>
     <ul class="post-list">
         {% assign documents = site.wiki | sort: 'updated' | reverse %}
         {% for doc in documents %}
@@ -53,7 +61,7 @@ regenerate: true
     </ul>
 </div>
 <div>
-    <H3 class="indent">최근 변경된 위키 문서 (..recently modified)</H3>
+    <H3 class="indent">최근 변경된 문서 (..recently modified)</H3>
     <ul class="post-list">
 {% assign documents = site.wiki | sort: 'updated' | reverse %}
 {% for doc in documents limit: 30 %}
