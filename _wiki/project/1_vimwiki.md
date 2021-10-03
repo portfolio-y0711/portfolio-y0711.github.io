@@ -13,6 +13,8 @@ latex   : true
 * TOC
 {:toc}
 
+![library](https://user-images.githubusercontent.com/65143458/135736524-c8d6257b-9ec1-453e-b2d5-97e7a56179b3.jpeg)
+
 ## 개요
 
 개발과정 중에 발생한 이슈와 문제 해결 사례를 기록하고 추후 개선 방향을 공유하기 위해 프로젝트 위키를 구성한다. 
