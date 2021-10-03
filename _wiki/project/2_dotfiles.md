@@ -2,8 +2,8 @@
 layout  : wiki
 title   : 업무 투입 준비 (2) - dotfiles
 summary : manage 개발환경 without tears & fears
-date    : 2021-09-24 22:56:28 +0900
-updated : 2021-09-24 22:56:29 +0900
+date    : 2021-09-25 22:56:28 +0900
+updated : 2021-09-25 22:56:29 +0900
 tag     : project env
 toc     : true
 public  : true

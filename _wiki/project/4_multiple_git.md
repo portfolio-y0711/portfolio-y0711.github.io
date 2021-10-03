@@ -2,8 +2,8 @@
 layout  : wiki
 title   : 업무 투입 준비 (4) - multiple git account 사용하기
 summary : 회사 업무용 계정과 학습용 계정 분리하기
-date    : 2021-09-24 22:56:28 +0900
-updated : 2021-09-24 22:56:29 +0900
+date    : 2021-09-27 22:56:28 +0900
+updated : 2021-09-27 22:56:29 +0900
 tag     : project env
 toc     : true
 public  : true

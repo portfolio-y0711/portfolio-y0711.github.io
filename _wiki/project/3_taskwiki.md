@@ -2,8 +2,8 @@
 layout  : wiki
 title   : 업무 투입 준비 (3) - taskwarrior + timewarrior + taskwiki
 summary : GTD, 칸반을 위한 할일 관리 시스템
-date    : 2021-09-25 22:56:28 +0900
-updated : 2021-09-25 22:56:29 +0900
+date    : 2021-09-26 22:56:28 +0900
+updated : 2021-09-26 22:56:29 +0900
 tag     : project env
 toc     : true
 public  : true

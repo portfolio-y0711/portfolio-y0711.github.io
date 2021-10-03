@@ -16,18 +16,13 @@ regenerate: true
 * [[/pattern-language/refactoring/index]]
 * [[/pattern-language/xUnit/index]]
 
-
 ## [[/tech-knowlogy/index]]
 
 * [[tech-knowlogy/rabbitmq_kafka]]
 
-<!--
-
 ## [[/algorithm/index]]
 
 * [[/algorithm/dijkstra]]
-
--->
 
 ---
 

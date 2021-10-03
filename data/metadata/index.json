@@ -4,6 +4,7 @@
  "url": "/wiki/index",
  "updated": "2021-09-24 21:58:47 +0900",
  "children": [
+  "algorithm/index",
   "pattern-language/index",
   "project/index",
   "tech-knowlogy/index"

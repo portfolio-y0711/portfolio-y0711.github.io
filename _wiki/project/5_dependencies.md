@@ -2,8 +2,8 @@
 layout  : wiki
 title   : 업무 투입 준비 (5) - dependencies 정리하기
 summary : 회사 pc에 설치할 목록을 정리해보자
-date    : 2021-09-29 22:56:28 +0900
-updated : 2021-09-29 22:56:29 +0900
+date    : 2021-09-28 22:56:28 +0900
+updated : 2021-09-28 22:56:29 +0900
 tag     : project env
 toc     : true
 public  : true
