@@ -13,6 +13,8 @@ latex   : true
 * TOC
 {:toc}
 
+![setup-multiple-git-account-on-a-system](https://user-images.githubusercontent.com/65143458/135736307-4cdb2c71-16df-4a86-af07-16fee10719c0.png)
+
 ## 개요
 
 * 회사에서 개발 장비를 지급하는 것으로 알고 있고, 회사 개발 pc에는 업무와 관련성 없는 작업을 하지 않을 예정이라 multiple git account를 사용할 일은 거의 발생하지 않을 거라 생각함

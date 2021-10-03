@@ -17,38 +17,76 @@ latex   : true
 
 * 버전 관리자 (runtime version managers)
 
-  * nvm (alternatives: volta, n)
+  * [nvm (alternatives: volta, n)](https://github.com/nvm-sh/nvm)
 
-  * pyenv (alternatives: pipenv, poetry)
+     ```shell
+    $ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+    ```
 
-  * rbenv (alternatives: rvm)
+  * [pyenv (alternatives: pipenv, poetry)](https://github.com/pyenv/pyenv)
+
+     ```shell
+    $ brew install pyenv
+
+    ```
+
+  * [rbenv (alternatives: rvm)](https://github.com/rbenv/rbenv)
+
+     ```shell
+    $ brew install rbenv
+
+    ```
+<br/> 
 
 * 문서 편집기 (editors)
 
-  * intellij IDEA
+  * [intellij IDEA](https://www.jetbrains.com/ko-kr/idea/download/#section=mac)
 
-  * vscode
+  * [vscode](https://code.visualstudio.com/download)
 
-  * neovim
+  * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+
+     ```shell
+    $ brew install neovim
+    ```
+    
+<br/> 
+
+* 개발환경/가상환경 구성 툴 (Provision / VM Tool)
+
+  * [virtualbox](https://www.virtualbox.org/wiki/Downloads)
+
+     ```shell
+    $ brew install --cask virtualbox
+    ```
+    
+  * [vagrant](https://www.vagrantup.com/downloads)
+
+     ```shell
+    $ brew install vagrant
+    ```
+
+  * [ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-macos)
+
+     ```shell
+    $ pip install ansible
+    ```
+
+  * [docker](https://docs.docker.com/desktop/mac/install/)
+
+<br/> 
 
 * 앱 (application)
 
-  * magnet
+  * [magnet](https://apps.apple.com/us/app/magnet/id441258766?mt=12)
 
-  * ~~soundflower~~
+  * [~~soundflower~~](https://soundflower.softonic.kr/mac/download)
 
-  * virtualbox
+  * [appcleaner](https://freemacsoft.net/appcleaner/)
 
-  * vagrant
+  * [beyond compare](https://www.scootersoftware.com/download.php)
 
-  * ansible
-
-  * docker
-
-  * appcleaner
-
-  * beyond compare 
-
+  * [Zoom](https://zoom.us/support/download?os=mac)
 
 ## 구성 방법
 
@@ -71,12 +109,16 @@ latex   : true
        IdentityFile ~/.ssh/github-user2
        IdentitiesOnly yes
     ```
+    
+<br/> 
 
 * ssh 프로토콜을 이용한 git clone
 
     ```shell
     $ git clone git@github.com-user1:user1/your-repo-name.git your-repo-name_user1
     ```
+    
+<br/> 
 
 * 아래의 명령어로 로컬의 .git/config 파일을 수정하거나, 직접 경로 접근하여 수정함
 
@@ -93,6 +135,7 @@ latex   : true
     name = user1
     email = user1@gmail.com
     ```
+    
 ## Links
 
 * [Handling Multiple Github Accounts on MacOS](https://gist.github.com/Jonalogy/54091c98946cfe4f8cdab2bea79430f9):  Jonalogy/handling_multiple_github_accounts.md
