@@ -13,6 +13,9 @@ latex   : true
 * TOC
 {:toc}
 
+![taskwarrior](https://user-images.githubusercontent.com/65143458/135736387-26b71751-b399-4e1b-91ea-d61f96fcce5e.png)
+
+
 ## 개요
 
 * 애자일, 칸반을 사용하는 스타트업에서 개발자가 조직의 목표 달성에 효과적으로 기여하기 위해서는 아래의 두가지가 필요함
