@@ -13,6 +13,8 @@ latex   : true
 * TOC
 {:toc}
 
+![dependencies](https://user-images.githubusercontent.com/65143458/135738127-46c9e454-2d15-4e1e-8252-f5f8189c2560.jpeg)
+
 ## 개요
 
 * 버전 관리자 (runtime version managers)
