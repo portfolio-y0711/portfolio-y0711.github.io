@@ -1,7 +1,8 @@
 [
- "project/1_vimwiki",
- "project/2_dotfiles",
- "project/3_taskwiki",
- "project/4_multiple_git",
- "project/5_dependencies"
+ "project/productivity/1_vimwiki",
+ "project/productivity/2_dotfiles",
+ "project/productivity/3_taskwiki",
+ "project/productivity/4_multiple_git",
+ "project/productivity/5_dependencies",
+ "project/productivity/6_miscellaneous_settings"
 ]

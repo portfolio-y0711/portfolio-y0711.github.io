@@ -5,15 +5,15 @@
  },
  {
   "name": "category",
-  "size": 9
+  "size": 10
  },
  {
   "name": "env",
-  "size": 5
+  "size": 6
  },
  {
   "name": "index",
-  "size": 3
+  "size": 4
  },
  {
   "name": "message",
@@ -29,6 +29,6 @@
  },
  {
   "name": "project",
-  "size": 5
+  "size": 6
  }
 ]

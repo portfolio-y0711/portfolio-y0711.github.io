@@ -7,7 +7,7 @@ updated : 2021-09-28 22:56:29 +0900
 tag     : project env
 toc     : true
 public  : true
-parent  : [[/project/index]]
+parent  : [[/productivity/project/index]]
 latex   : true
 ---
 * TOC

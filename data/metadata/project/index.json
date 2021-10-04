@@ -6,10 +6,6 @@
  "url": "/wiki/project/index",
  "updated": "2019-08-13 13:50:57 +0900",
  "children": [
-  "project/1_vimwiki",
-  "project/2_dotfiles",
-  "project/3_taskwiki",
-  "project/4_multiple_git",
-  "project/5_dependencies"
+  "project/productivity/index"
  ]
 }
