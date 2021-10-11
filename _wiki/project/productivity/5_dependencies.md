@@ -17,6 +17,14 @@ latex   : true
 
 ## 개요
 
+* cli tools (command-line interface tools)
+
+  * [GitHub Cli](https://github.com/cli/cli)
+
+     ```shell
+    brew install gh
+    ```
+
 * 버전 관리자 (runtime version managers)
 
   * [nvm (alternatives: volta, n)](https://github.com/nvm-sh/nvm)
@@ -30,6 +38,10 @@ latex   : true
      ```shell
     $ brew install pyenv
 
+    $ echo 'eval "$(pyenv init --path)"' >> ~/.zprofile
+    $ echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+
+    $ echo 'export PATH="/Users/yoonsung0711/Library/Python/3.8/bin:$PATH"' >> ~/.zshrc
     ```
 
   * [rbenv (alternatives: rvm)](https://github.com/rbenv/rbenv)
@@ -37,6 +49,7 @@ latex   : true
      ```shell
     $ brew install rbenv
 
+    $echo 'eval "$(rbenv init - zsh)"' >> ~/.zshrc
     ```
 <br/> 
 
@@ -45,6 +58,13 @@ latex   : true
   * [intellij IDEA](https://www.jetbrains.com/ko-kr/idea/download/#section=mac)
 
   * [vscode](https://code.visualstudio.com/download)
+
+    * 단축키 설정 (command + k + s)
+        
+        * close window (workbench.action.closeWindow: ⌘ + w ) 삭제
+
+        * close window (workbench.action.closeWindow: ⌘ + ⇧ + w ) 사용
+
 
   * [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
@@ -71,7 +91,11 @@ latex   : true
   * [ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html#installing-ansible-on-macos)
 
      ```shell
-    $ pip install ansible
+    $ pip3 install ansible
+
+    # ansible을 찾지 못한다면 아래와 같이 경로를 추가함 
+    $ echo 'export PATH="/Users/<username>/Library/Python/3.8/bin:$PATH"' >> ~/.zshrc
+
     ```
 
   * [docker](https://docs.docker.com/desktop/mac/install/)
@@ -89,6 +113,7 @@ latex   : true
   * [beyond compare](https://www.scootersoftware.com/download.php)
 
   * [Zoom](https://zoom.us/support/download?os=mac)
+
 
 ## 구성 방법
 

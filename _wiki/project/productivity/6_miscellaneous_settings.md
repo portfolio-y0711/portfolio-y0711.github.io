@@ -17,6 +17,36 @@ latex   : true
 
 ## 개요
 
+* Mac (System Preferences)
+
+    * locate 서비스 활성화 
+
+    ```
+    $ sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
+
+    $ sudo /usr/libexec/locate.updatedb\n\n
+    ```
+
+    * 키보드 설정
+
+        * 한영 전환 
+
+            System Preferences > Keyboard > Shortcuts > Input Sources 
+            Select the previous input source : ⌃ ⇧ Space
+ 
+        * Capslock
+
+            System Preferences > Keyboard > Keyboard > Modifier Keys > Apple Magic Keyboard
+
+            CapsLock(⇪) -> Control(⌃)
+
+        * Ctrl
+
+            System Preferences > Keyboard > Keyboard > Modifier Keys > Apple Magic Keyboard
+
+            Control(⌃) -> Control (⇪)
+
+
 * 터미널(terminal emulator)
 
     * [Iterm2](https://iterm2.com/downloads.html)
@@ -25,7 +55,6 @@ latex   : true
 
             ```
             $ brew install --cask iterm2
-
             ```
 
         * 필수 설정
@@ -56,6 +85,13 @@ latex   : true
 
 
                     ![forward](https://user-images.githubusercontent.com/65143458/135805377-dd5878f0-1783-45e3-b8e4-e7696dea666c.png)
+
+
+        * 기타 설정
+
+                * [ 비프음 제거 ]
+
+                ※ 변경 후: Preferences  Profiles > Terminal > "Silence bell" check
 
 
 ## Links
